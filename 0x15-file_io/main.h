@@ -1,0 +1,16 @@
+#ifndef D1CA0FF3_19F2_4BF8_90BB_264100F96BE3
+#define D1CA0FF3_19F2_4BF8_90BB_264100F96BE3
+#ifndef _MAIN_H_
+#define _MAIN_H_
+
+int _putchar(char c);
+
+ssize_t read_textfile(const char *filename, size_t letters);
+int create_file(const char *filename, char *text_content);
+int append_text_to_file(const char *filename, char *text_content);
+
+
+#endif
+
+
+#endif /* D1CA0FF3_19F2_4BF8_90BB_264100F96BE3 */
